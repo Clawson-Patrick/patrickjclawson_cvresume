@@ -1012,7 +1012,7 @@ small {
 -------------------------------------------------*/
 
 #testimonials {
-    background: url(../img/testimonials.jpg);
+    /* background: url(../img/testimonials.jpg); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1579,4 +1579,9 @@ ul.footer-social li {
     width: auto;
     margin: auto;
     max-height: 100%;
+}
+
+.center {
+    margin: 0 auto !important;
+    display: block !important;
 }
