@@ -31,7 +31,8 @@
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
-        $email_headers = "From: $name <$email>";
+        $email_headers = "From: Pat's Resume Website <no-reply@patrickjclawson.com>\n";
+        $email_headers .= "Reply-To: $name <$email>";
 
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
